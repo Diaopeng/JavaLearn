@@ -1,7 +1,13 @@
 package Feature.lambda;
 
+import java.io.Console;
+
 public class Lambdatest {
     public static void main(String[] args) {
+        String a = "abc";
+        String b = "abcd";
+        System.out.println(a.compareTo(b));
+
         // 常规接口实现
         SeaAnimal seaAnimal = new SeaAnimal();
         seaAnimal.eat();
