@@ -1,6 +1,7 @@
 package Feature.lambda;
 
 import java.io.Console;
+import java.util.*;
 
 public class Lambdatest {
     public static void main(String[] args) {
@@ -26,7 +27,36 @@ public class Lambdatest {
         animal1.eat();
     }
 
+    class Solution {
+        public int maxSum(int[] nums) {
+            List<Integer>[] list = new List[10];
+            for(int num: nums){
+                int max = 0;
+                int cur = num;
+                while(cur != 0){
+                    int digit = cur % 10;
+                    max = Math.max(max, digit);
+                    cur /= 10;
+                }
+                if(list[max] == null){
+                    list[max] = new ArrayList<>();
+                }
+                list[max].add(num);
+            }
+            int res = -1;
+            for(int i = 1;i <= 9; i++){
+                Collections.sort(list[i], (a, b) ->(b - a));
+                if(list[i].size() >= 2){
+                    res  = Math.max(res, list[i].get(0) + list[i].get(1));
+                }
+            }
+            return res;
+        }
+    }
+
 }
+
+
 
  interface Animal{
     public void eat();
