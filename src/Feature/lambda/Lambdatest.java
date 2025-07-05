@@ -9,6 +9,9 @@ public class Lambdatest {
         String b = "abcd";
         System.out.println(a.compareTo(b));
 
+
+
+
         // 常规接口实现
         SeaAnimal seaAnimal = new SeaAnimal();
         seaAnimal.eat();
@@ -26,6 +29,8 @@ public class Lambdatest {
         Animal animal1 = () -> System.out.println("Lambda Expression implementing eat()");
         animal1.eat();
     }
+
+
 
     class Solution {
         public int maxSum(int[] nums) {

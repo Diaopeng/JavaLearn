@@ -5,12 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58aca73a-86b8-49ea-891a-c84ff8acbcd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Concurency/java/Chapter2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Concurency/java/Chapter3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Concurency/java/Chapter6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concurency/java/Chapter5/SynchroCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Feature/Collectiontest/Listtest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Concurency/java/FirstChapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Concurency/java/FirstChapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/DesignPattern/java/AbstractCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/DesignPattern/java/AbstractCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/DesignPattern/java/Minus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/DesignPattern/java/Minus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/DesignPattern/java/Multiply.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/DesignPattern/java/Multiply.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/DesignPattern/java/Plus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/DesignPattern/java/Plus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/DesignPattern/java/Strategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/DesignPattern/java/Strategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Feature/Stringtest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Feature/Stringtest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Feature/lambda/Lambdatest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Feature/lambda/Lambdatest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Feature/lambda/Lambdatest$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Feature/lambda/Lambdatest$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Feature/lambda/Lambdatest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Feature/lambda/Lambdatest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Feature/lambda/SeaAnimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Feature/lambda/SeaAnimal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPattern/java/Salesforce.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPattern/java/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/java/Strategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Feature/Stringtest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Feature/Stringtest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Feature/lambda/Lambdatest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Feature/lambda/Lambdatest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +58,16 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/gaozhipeng/Java_project/JavaLearn",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -60,7 +76,20 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Chapter6">
+  <component name="RunManager" selected="Application.Listtest">
+    <configuration name="Amazon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.Amazon" />
+      <module name="JavaLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Chapter6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Concurency.java.Chapter6" />
       <module name="JavaLearn" />
@@ -74,38 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lambdatest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Feature.lambda.Lambdatest" />
+    <configuration name="Listtest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Feature.Collectiontest.Listtest" />
       <module name="JavaLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Feature.lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Mythread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Feature.thread.Mythread" />
-      <module name="JavaLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Feature.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Salesforcetest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Feature.thread.Salesforcetest" />
-      <module name="JavaLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Feature.thread.*" />
+          <option name="PATTERN" value="Feature.Collectiontest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,13 +129,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.test" />
+      <module name="JavaLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Chapter6" />
-        <item itemvalue="Application.Salesforcetest" />
-        <item itemvalue="Application.Mythread" />
+        <item itemvalue="Application.Listtest" />
+        <item itemvalue="Application.Amazon" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.Stringtest" />
-        <item itemvalue="Application.Lambdatest" />
+        <item itemvalue="Application.Chapter6" />
       </list>
     </recent_temporary>
   </component>
@@ -155,6 +171,14 @@
       </list>
     </option>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -173,11 +197,33 @@
       <workItem from="1700073683361" duration="8886000" />
       <workItem from="1700250351166" duration="6830000" />
       <workItem from="1700505874176" duration="15433000" />
-      <workItem from="1702751004855" duration="7212000" />
+      <workItem from="1702751004855" duration="10582000" />
+      <workItem from="1715382685196" duration="1283000" />
+      <workItem from="1717793475955" duration="9180000" />
+      <workItem from="1724102462263" duration="31681000" />
+      <workItem from="1726697967246" duration="8696000" />
+      <workItem from="1727632674756" duration="14486000" />
+      <workItem from="1730663863961" duration="1298000" />
+      <workItem from="1732558969611" duration="1927000" />
+      <workItem from="1736026704650" duration="3821000" />
+      <workItem from="1740712270254" duration="26000" />
+      <workItem from="1740712304342" duration="160000" />
+      <workItem from="1749507348224" duration="48885000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Feature/Stringtest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
